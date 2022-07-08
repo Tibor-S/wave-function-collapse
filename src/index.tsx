@@ -12,8 +12,8 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode><BrowserRouter>
     <Routes>
-      <Route path='/' element={<App />} />
-      <Route path='test' element={<Test />} />
+      <Route path='wave-function-collapse/' element={<App />} />
+      <Route path='wave-function-collapse/test' element={<Test />} />
     </Routes>
   </BrowserRouter></React.StrictMode>
 );
